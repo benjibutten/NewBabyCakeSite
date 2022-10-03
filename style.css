@@ -4,6 +4,6 @@ h1 {
 }
 
 img {
-    filter: grayscale(70%) blur(2px)  invert() sepia(50%);
     transform: rotate(20deg);
+
 }
