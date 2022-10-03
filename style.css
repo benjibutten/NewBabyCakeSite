@@ -2,3 +2,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     color: blue;
 }
+
+img {
+    filter: grayscale(70%) blur(2px)  invert() sepia(50%);
+    transform: rotate(20deg);
+}
