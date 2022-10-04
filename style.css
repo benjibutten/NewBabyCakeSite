@@ -1,9 +1,72 @@
+/* Lägg allt på sidan centrerat! */
+body {
+    display: grid;
+    justify-content: center;
+    margin: 50;
+    background-color: #e9ebee;
+}
+
+/* Allt om våra rubriker i H1 format */
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: blue;
 }
 
+/* Yay! Filter och effekter på bilder! */
 img {
     transform: rotate(20deg);
 
+}
+
+/* 
+ALLT OM NAVIGATIONEN NEDAN!
+    MASTER CURRY - HEM, OM CURRY, BLOGGEN, KONTAKT
+*/
+
+/* Inställningar för navigationen! */
+#navbar {
+    display: grid;
+    min-height: 75px;
+    max-width: 700px;
+    grid-auto-flow: column;
+    background-color: #fcfcfc;
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+}
+
+/* Visst blev det kul med curry texten som en logga? */
+#logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+/* Gula färgen i curry, kanske ska vara annan nyans? */
+.logo span {
+    color: #a1ad04;
+}
+
+/* Hur ska länkarna i navigationen se ut? */
+#links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Ska alla våra länkar vara såhär? Kanske ska göra om till en class? */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0474bc;
 }
