@@ -12,6 +12,20 @@ h1 {
     color: blue;
 }
 
+h3 {
+    background-color: rgb(225, 255, 232);
+    color: rgb(255, 0, 144);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 300px;
+}
+
+.redbubble {
+    display: flex;
+    align-self: center;
+    padding-left: 70px;
+    background-color: rgb(255, 208, 240);
+}
+
 /* Yay! Filter och effekter på bilder! */
 img {
     transform: rotate(20deg);
@@ -46,6 +60,7 @@ ALLT OM NAVIGATIONEN NEDAN!
     color: #000;
     text-transform: uppercase;
 }
+
 /* Gula färgen i curry, kanske ska vara annan nyans? */
 .logo span {
     color: #a1ad04;
